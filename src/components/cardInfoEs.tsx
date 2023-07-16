@@ -97,7 +97,7 @@ const CardInfoDesktop = (props: CardInfoProps) => {
     const href = (props.blog ? '/es/blog/' : '/es/proyectos/') + props.href;
     return (
             <NextLink href={href} >
-                <HStack w='full' minH='40vh' p={4} style={style} variant='cardInfo'>
+                <HStack w='full' minH='40vh' p={4} style={style}>
                     <VStack h='full' w='full'>
                         <Container bg={bg} padding='5px' style={{borderRadius: '10px'}}>
                             <Box bg={bgBox} style={{borderRadius: '10px'}}>

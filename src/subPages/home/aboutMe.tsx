@@ -46,7 +46,7 @@ const AboutDesktop = ({width, height, bg}: ContextProps) => {
 
 const AboutMobile = ({width, height, bg}: ContextProps) => {
     return (
-        <HStack width={width}  bg={bg}>
+        <HStack width={width}  bg={bg} minH='500px'>
             <Spacer/>
             <VStack>
                 <Spacer/>

@@ -13,6 +13,7 @@ export interface CardInfoProps {
     photoURL?: string,
     keyword: string,
     href: string,
+    externalLink: boolean,
     // English
     title?: string,
     date?: string,
@@ -97,8 +98,8 @@ const CardInfoDesktop = (props: CardInfoProps) => {
     const bg = useColorModeValue('#E2E8F0','#2D3748');
     const href = (props.blog ? '/blog/' : '/projects/') + props.href;
     return (
-            <NextLink href={ href }>
-                <HStack w='full' minH='40vh' p={4} variant='cardInfo' style={style}>
+            <NextLink href={ props.externalLink ? props.href : href }>
+                <HStack w='full' minH='40vh' p={4} style={style}>
                     <VStack h='full' w='full'>
                         <Container bg={bg} padding='5px' style={{borderRadius: '10px'}}>
                             <Box bg={bgBox} style={{borderRadius: '10px'}}>

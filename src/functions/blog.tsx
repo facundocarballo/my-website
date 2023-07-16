@@ -9,6 +9,7 @@ export const empytCardInfo:CardInfoProps = {
   keyword: '',
   href: '',
   blog: true,
+  externalLink: false,
 };
 
 export function getBlogs(): TheCardInfoProps {
@@ -23,6 +24,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Miercoles, 29 de Diciembre 2021',
     photoURL: 'https://i.ibb.co/x6Mhvv3/Captura-de-Pantalla-2021-12-28-a-la-s-22-54-50.png',
     href: "chakraUI",
+    externalLink: false,
     blog: true
   };
   const truffleReact: CardInfoProps = {
@@ -35,6 +37,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Lunes, 17 de Enero 2022',
     photoURL: 'https://i.ibb.co/dGmFTHH/MINIATURA-EN.png',
     href: 'truffleReact',
+    externalLink: false,
     blog: true
   };
   const interactTruffleWithReact: CardInfoProps = {
@@ -47,6 +50,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Jueves, 20 de Enero 2022',
     photoURL: 'https://i.ibb.co/KLrbkzb/Captura-de-Pantalla-2022-01-20-a-la-s-14-55-47.png',
     href: 'interactTruffleReact',
+    externalLink: false,
     blog: true
   };
   const mappingFunctions: CardInfoProps = {
@@ -59,6 +63,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Viernes, 21 de Enero 2022',
     photoURL: 'https://i.ibb.co/YNqLq7k/Captura-de-Pantalla-2022-01-22-a-la-s-20-45-32.png',
     href: 'mappingFunctions',
+    externalLink: false,
     blog: true
   };
   const truffleTestnet: CardInfoProps = {
@@ -71,6 +76,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Martes, 1 de Febrero 2022',
     photoURL: 'https://i.ibb.co/VVPFTBG/Captura-de-Pantalla-2022-02-14-a-la-s-11-56-03.png',
     href: 'truffleTestnet',
+    externalLink: false,
     blog: true
   };
   const ethUSD: CardInfoProps = {
@@ -83,6 +89,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Miercoles, 2 de Febrero 2022',
     photoURL: 'https://i.ibb.co/WvmPw2h/Captura-de-Pantalla-2022-02-14-a-la-s-12-37-18.png',
     href: 'ethUSD',
+    externalLink: false,
     blog: true
   };
   const gitHubProfile: CardInfoProps = {
@@ -95,6 +102,7 @@ export function getBlogs(): TheCardInfoProps {
     fecha: 'Viernes, 4 de Febrero 2022',
     photoURL: 'https://i.ibb.co/p1h1f4q/Captura-de-Pantalla-2022-02-14-a-la-s-13-01-17.png',
     href: 'githubProfile',
+    externalLink: false,
     blog: true
   };
   const props : TheCardInfoProps = {

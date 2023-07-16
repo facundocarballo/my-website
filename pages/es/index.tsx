@@ -8,6 +8,7 @@ import { Contact } from '../../src/subPages/inicio/contact';
 import { Skills } from '../../src/subPages/inicio/skills';
 import React from 'react';
 import { Footer } from '../../src/components/footer';
+import { MoreAboutMe } from '../../src/subPages/inicio/moreAboutMe';
 
 export default function Home() {
 
@@ -27,7 +28,8 @@ export default function Home() {
       <Divider />
       <AboutMe/>
       <Divider />
-      <Skills />
+      {/* <Skills /> */}
+      <MoreAboutMe />
       <Divider />
       <Contact/>
       <Divider />

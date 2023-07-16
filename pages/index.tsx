@@ -6,8 +6,10 @@ import { Landing } from '../src/subPages/home/landing';
 import { AboutMe } from '../src/subPages/home/aboutMe';
 import { Contact } from '../src/subPages/home/contact';
 import { Skills } from '../src/subPages/home/skills';
+import { MoreAboutMe } from '../src/subPages/home/moreAboutMe';
 import React from 'react';
 import { Footer } from '../src/components/footer';
+import { Experience } from '../src/subPages/home/experience';
 
 export default function Home() {
 
@@ -27,7 +29,10 @@ export default function Home() {
     <Divider />
     <AboutMe/>
     <Divider />
-    <Skills />
+    <MoreAboutMe />
+    {/* <Skills /> */}
+    <Divider />
+    <Experience />
     <Divider />
     <Contact/>
     <Divider />
